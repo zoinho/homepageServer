@@ -2,9 +2,8 @@
 var express = require('express');
 var fs = require('fs');
 var cors = require('cors');
-var bodyparser = require('body-parser');
 var app = express();
-
+const port = process.env.PORT || 3000;
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
@@ -14,7 +13,8 @@ app.use(function(req, res, next) {
     next();
   });
 app.use(express.json())
-app.listen(5000, ()=> {
+
+app.listen(port, ()=> {
     console.log("server is running")
 })
 
