@@ -21,7 +21,7 @@ app.listen(5000, ()=> {
 
 
 app.get('/education', (req, res) => {
-    fs.readFile('../serverFiles/education.json', (err, resp) => {
+    fs.readFile('serverFiles/education.json', (err, resp) => {
         let parsedResp = JSON.parse(resp);
         setTimeout(()=> {
             res.send(parsedResp);
@@ -33,12 +33,12 @@ app.get('/education', (req, res) => {
 app.put('/update-education', (req, res) => {
     let file;
     let change;
-    fs.readFile('../serverFiles/education.json', (err, resp) => {
+    fs.readFile('serverFiles/education.json', (err, resp) => {
         file = JSON.parse(resp);
     })
     change = req.body;
     file = {...file, ...change} 
-    fs.writeFileSync('../serverFiles/education.json', JSON.stringify(file), error => {
+    fs.writeFileSync('serverFiles/education.json', JSON.stringify(file), error => {
         if(error) {
             throw error
         }
@@ -48,7 +48,7 @@ app.put('/update-education', (req, res) => {
 })
 
 app.get('/skills', (req, res) => {
-    fs.readFile('../serverFiles/skills.json', (err, resp) => {
+    fs.readFile('serverFiles/skills.json', (err, resp) => {
         let parsedResp = JSON.parse(resp);
         setTimeout(()=> {
             res.send(parsedResp);
@@ -56,7 +56,7 @@ app.get('/skills', (req, res) => {
     })
 })
 app.get('/hobbies', (req, res) => {
-    fs.readFile('../serverFiles/hobbies.json', (err, resp) => {
+    fs.readFile('serverFiles/hobbies.json', (err, resp) => {
         let parsedResp = JSON.parse(resp);
         setTimeout(()=> {
             res.send(parsedResp);
@@ -64,7 +64,7 @@ app.get('/hobbies', (req, res) => {
     })
 })
 app.get('/experience', (req, res) => {
-    fs.readFile('../serverFiles/experience.json', (err, resp) => {
+    fs.readFile('serverFiles/experience.json', (err, resp) => {
         let parsedResp = JSON.parse(resp);
         setTimeout(()=> {
             res.send(parsedResp);
