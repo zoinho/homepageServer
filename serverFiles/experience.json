@@ -1,0 +1,30 @@
+[
+    {
+        "startYear":2010,
+        "endYear": 2012,
+        "companyName": "Silvermedia",
+        "position": "Graphic Designer/ Web Developer",
+        "responsibilities": "Designing layouts (with HTML/CSS/JQuery coding),vector graphics and printable sources"
+    },
+    {
+        "startYear":2012,
+        "endYear": 2014,
+        "companyName": "Schibsted Tech Polska",
+        "position": "Software Engineer/ Frontend Developer/ Graphic Designer",
+        "responsibilities": "Designing layouts and small components for various company products, taking part in main project for the company"
+    },
+    {
+        "startYear":2014,
+        "endYear": 2016,
+        "companyName": "Infusion Development Poland",
+        "position": "Interactive Developer",
+        "responsibilities": "Creating full functional mobile and desktop web appliactions for clients from different business fields using newest technologies"
+    },
+    {
+        "startYear":2016,
+        "endYear": null,
+        "companyName": "WebWords Łukasz Milik",
+        "position": "CEO/Self Employed/ Frontend Developer",
+        "responsibilities": "Contract with the USA startup Prama. Creating fully functional desktop and mobile components that create one big synchronized ecosystem. Still ongoing."
+    }
+]

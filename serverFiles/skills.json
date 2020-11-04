@@ -1,0 +1,112 @@
+{
+    "advanced": [
+        {
+            "iconUrl":"",
+            "name":"HTML5",
+            "level":7.5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"CSS3",
+            "level":7.5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Angular 7+",
+            "level":7.5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Java Script",
+            "level":7.5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Responsive Web Design",
+            "level":7.5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Adobe Photoshop",
+            "level":7.5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Adobe Illustrator",
+            "level":7.5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"English Language",
+            "level":7.5
+
+        }
+    ],
+    "intermediate": [
+        {
+            "iconUrl":"",
+            "name":"Sass",
+            "level":5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Wordpress",
+            "level":5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Bootstrap",
+            "level":5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"Github",
+            "level":5
+
+        },
+        {
+            "iconUrl":"",
+            "name":"jQuery",
+            "level":5
+
+        }
+    ],
+    "basic": [
+        {
+            "iconUrl":"",
+            "name":"React Js",
+            "level":2.5
+
+        }, {
+            "iconUrl":"",
+            "name":"Jasmine",
+            "level":2.5
+
+        }, {
+            "iconUrl":"",
+            "name":"User Experience Design",
+            "level":2.5
+
+        }, {
+            "iconUrl":"",
+            "name":"Linux Based Operating Systems",
+            "level":2.5
+
+        }, {
+            "iconUrl":"",
+            "name":"Microsoft Office",
+            "level":2.5
+
+        }
+    ]
+}   
